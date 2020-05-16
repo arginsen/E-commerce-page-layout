@@ -1,0 +1,140 @@
+body {
+    background: #f5f5f5;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    width: 1080px;
+}
+
+a {
+    color: #777;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+
+.topnav .navbar {
+    background: #eee;
+    padding: 0;
+    font-size: 14px;
+}
+
+.header .container {
+    padding: 10px;
+}
+.header .nav-brand img {
+    height: 60px;
+}
+
+.header .form-inline,
+.header a {
+    width: 100%;
+}
+
+.header .form-control,
+.header .btn {
+    border-radius: 0;
+    border-color: #ce1829;
+}
+
+.header .btn {
+    background: #ce1829;
+    color: #ffffff;
+}
+
+.header .btn:hover,
+.btn-outline-success:not(:disabled):not(.disabled):active {
+    background: rgba(228, 18, 18, 0.87);
+    box-shadow: 0;
+}
+
+.header .form-inline .form-control {
+    width: 80%;
+}
+
+.header .form-inline .btn {
+    width: 20%;
+}
+
+.main-promote > .row {
+    margin-left: -45px;
+    padding: 0 -15px;
+}
+
+.main-promote .col-3 {
+    flex: 0 0 20%;
+}
+
+.main-promote .col-6 {
+    flex: 0 0 80%;
+    max-width: 60%;
+}
+
+.main-promote .list-group {
+    border-radius: 0;
+}
+
+.main-promote .list-group-item {
+    background: #6e6568;
+    border: 0;
+    text-align: center;
+    color: #ffffff;
+    padding: 12px 20px;
+}
+
+.main-promote img {
+    max-width: 100%;;
+}
+
+.main-promote .info {
+    margin-left: 10px;
+    background: #fff;
+}
+
+.main-promote .info .avatar {
+    width: 50px;
+    height: 50px;
+    background: #777;
+    border-radius: 50%;
+    float: left;
+    margin: 0 10px;
+}
+
+.main-promote .content {
+    line-height: 1.5rem;
+}
+
+.cat-promote .title:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 22px;
+    background: #dd182b;
+    margin-right: 10px;
+}
+
+.cat-promote .row {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
+.cat-promote .card {
+    height: 300px;
+}
+
+.footer {
+    padding: 50px 10px;
+    background: #bbb;
+}
+
+.footer a {
+    padding: 0 10px;
+}
